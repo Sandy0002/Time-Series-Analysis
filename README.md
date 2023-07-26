@@ -9,6 +9,7 @@ Repository consists of programs that use various concepts and models used for ti
 + [Datasets Description](#data)
 + [Libraries Used](#library)
 + [Programs Description](#program)
++ [LICENSE](LICENSE)
 
 
 <a id="intro"></a><h2>About</h2>
@@ -76,3 +77,7 @@ Program Name      | Description
 **Arms Imports** | This program uses arms_import data in that India's arms imports have been chosen here. The program uses ARIMA model so that data non-stationary data can be brought down to stationary state by differencing.**ARIMA stands for Auto Regression(AR)  Integration(I)  MOVING AVERAGE(MA)** ARIMA model is preferred when there is no seasonality to remove trend from the data.Program [link](https://github.com/Sandy0002/Time-Series-Analysis/blob/main/arms_imports.py)
 **Energy Requirements** | This program uses energy_req dataset. In that dataset various columns consisting of time series, states of India and total Indian consumption of energy is present. For our purpose total consumption of India has been chosen. As energy consumption is seasonal hence demonstration of **SARIMA i.e Seasonal ARIMA** have been used.Program [here](https://github.com/Sandy0002/Time-Series-Analysis/blob/main/energy_requirements.py)
 **Delhi Temperature** | This program uses delhi weather dataset which consists of temperature,mean pressure, wind speed and humidity.In this program we are estimating the temperature of the data and since other than temperature we have other variables such as humidity, wind speed and pressure so we **SARIMAX** model is used which is used to apply data having seasonal data and consists of exogeneous variables.Program [here](https://github.com/Sandy0002/Time-Series-Analysis/blob/main/delhi_temperature.py)
+
+
+## LICENSE
+[MIT LICENSE](LICENSE)
