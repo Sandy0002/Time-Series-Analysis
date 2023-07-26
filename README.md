@@ -7,6 +7,7 @@ Repository consists of programs that use various concepts and models used for ti
 + [Applications](#applications) 
 + [Terms](#terms) 
 + [Datasets Description](#data)
++ [Libraries Used](#library)
 + [Programs Description](#program)
 
 
@@ -54,6 +55,13 @@ Dataset Name      | Description
 **Energy Required** | This dataset encompasses energy being consumed by various states of India and total consumption in India.
 **Gold Prices** | The most opted metal on the planet i.e **Gold** its price values is present in this dataset.
 
+<a id="library"></a><h2>Libraries Used</h2>
++ **Numpy** : Used for numerical computations in python
++ **Pandas** : Used for file reading and other operations when working with large data.
++ **Sklearn(Scikit-learn)** : This is a machine learning library for python.
++ **Matplotlib** : Visualization library
++ **Seaborn** : Interactive visualizations are made using these library.
++ **Statsmodels** : This is library is used purely for statistical purposes.
 
 <a id="program"></a><h2>Programs Description</h2>
 
